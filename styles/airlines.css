@@ -1,0 +1,25 @@
+.homepage >h1{
+    text-align: center;
+    padding: 30px;
+}
+
+#airlines-form{
+    padding: 20px;
+}
+
+#airline-submit-btn{
+    margin-top: 10;
+}
+.mb-3{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.form-label{
+    font-size: 20;
+}
+#airline-table{
+    margin-top: 60px;
+}
+#airline-table > h2{
+    font-size: 30;
+}
