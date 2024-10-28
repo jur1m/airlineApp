@@ -31,97 +31,96 @@
     </nav>
 
     <div class="homepage">
-
         <h1>Manage Destinations</h1>
+        <div id="destinations-form">
+            <form class="row g-3" id="destinations-form">
 
-        <form class="row g-3">
-
-            <div class="col-md-6">
-                <label for="inputCity" class="form-label">Destination City</label>
-                <input type="text" class="form-control" id="inputCity">
-            </div>
-
-            <div class="col-md-6">
-                <label for="inputAirline" class="form-label">Select Airline</label>
-                <div class="input-group">
-                    <select class="form-select" id="inputAirline">
-                        <option value="Wizz Air">Wizz Air</option>
-                    </select>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Destination City</label>
+                    <input type="text" class="form-control" id="inputCity">
                 </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="PriceInput">Price (USD)</label>
-                    <input type="number" class="form-control" id="PriceInput">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="nrHours">Travel Time (in hours)</label>
-                    <input type="number" class="form-control" id="nrHours">
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <form>
-                    <div class="form-group">
-                        <label for="dateInput">Available Date</label>
-                        <input type="date" class="form-control" id="dateInput">
+    
+                <div class="col-md-6">
+                    <label for="inputAirline" class="form-label">Select Airline</label>
+                    <div class="input-group">
+                        <select class="form-select" id="inputAirline">
+                            <option value="Wizz Air">Wizz Air</option>
+                        </select>
                     </div>
-                </form>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="PriceInput">Price (USD)</label>
+                        <input type="number" class="form-control" id="PriceInput">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="nrHours">Travel Time (in hours)</label>
+                        <input type="number" class="form-control" id="nrHours">
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="dateInput">Available Date</label>
+                            <input type="date" class="form-control" id="dateInput">
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="col-12" id="destination-submit-btn">
+                    <button type="submit" class="btn btn-primary">Add destination</button>
+                </div>
+            </form>
+    
+            <div id="destinations-table">
+                <h2>Airlines List</h2>
+                <table class="table-bordered table">
+                    <thead>
+                        <th>
+                            <p>#</p>
+                        </th>
+                        <th>
+                            <p>Destination</p>
+                        </th>
+                        <th>
+                            <p>Airline</p>
+                        </th>
+                        <th>
+                            <p>Price</p>
+                        </th>
+                        <th>
+                            <p>Travel Time</p>
+                        </th>
+                        <th>
+                            <p>Date</p>
+                        </th>
+                        <th>
+                            <p>Actions</p>
+                        </th>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>1</td>
+                            <td>Rome</td>
+                            <td>Wizz Air</td>
+                            <td>$200</td>
+                            <td>1 hr</td>
+                            <td>10-10-2025</td>
+                            <td>
+                                <button type="button" class="btn btn-warning">Edit</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-
-
-
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Add destination</button>
-            </div>
-        </form>
-
-        <div id="destinations-table">
-            <h2>Airlines List</h2>
-            <table class="table-bordered table">
-                <thead>
-                    <th>
-                        <p>#</p>
-                    </th>
-                    <th>
-                        <p>Destination</p>
-                    </th>
-                    <th>
-                        <p>Airline</p>
-                    </th>
-                    <th>
-                        <p>Price</p>
-                    </th>
-                    <th>
-                        <p>Travel Time</p>
-                    </th>
-                    <th>
-                        <p>Date</p>
-                    </th>
-                    <th>
-                        <p>Actions</p>
-                    </th>
-                </thead>
-                <tbody class="table-group-divider">
-                    <tr>
-                        <td>1</td>
-                        <td>Rome</td>
-                        <td>Wizz Air</td>
-                        <td>$200</td>
-                        <td>1 hr</td>
-                        <td>10-10-2025</td>
-                        <td>
-                            <button type="button" class="btn btn-warning">Edit</button>
-                            <button type="button" class="btn btn-danger">Delete</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
-    </div>
+        </div>
+        
 
 
 

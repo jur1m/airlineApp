@@ -4,23 +4,23 @@
     
 }
 
-#airlines-form{
-    padding: 20px;
-}
-
-#airline-submit-btn{
-    margin-left: 5%;
-}
-.row{
+#destinations-form{
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .form-label{
     font-size: 20;
 }
 #destinations-table{
     margin-top: 60px;
+    padding-left: 75;
+    padding-right: 75;
 }
 #destinations-table > h2{
     font-size: 30;
+}
+
+#destination-submit-btn{
+    padding-left: 75;
 }
