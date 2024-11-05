@@ -5,7 +5,8 @@ function customFunction(){
 function changeTextOfP(){
     document.getElementById('homePageP').innerHTML = 'This is a new '
 }
-function logAirlineDetails(event){
+function logAirlineDetails(){
     const airlineName = document.getElementById('airline-input');
-    alert='airlineName';
-}
+    alert=airlineName;
+    console.log("Test");
+} 
